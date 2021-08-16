@@ -1,0 +1,123 @@
+{% load static %}
+{% block content %}
+<!doctype html>
+<html>
+<head>
+	<title>Script</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/help.css' %}">
+	<script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+	<script type="text/javascript" src="{% static 'javascript/main.js' %}"></script>
+	<script type="text/javascript" src="{% static 'javascript/text.js' %}"></script>
+	<script type="text/javascript" src="{% static 'javascript/description.js' %}"></script>
+</head>
+<body class="main-backdrop">
+	<section class="content-section container">	
+		<img class="logo-positioning" src="{% static 'FLAGPNG/script-logo.png' %}">
+		<h1><div id="word" class="section-header">Welcome</div></h1>
+		<p id="description" class="description">Please Choose Your Desired Language</p>
+	<!--
+	<div class="slideshow-container fade">
+		
+		<div class="Containers">
+			<a href="../english-forms/">
+			<img class="flag-center england" src="{% static 'FLAGPNG/English.png' %}" style="width:100%">
+			</a>
+		</div>
+
+		<div class="Containers">
+			<a href="../spanish-forms/">
+			<img class="flag-center spain" src="{% static 'FLAGPNG/spain.png' %}" style="width:100%">
+			</a>
+		</div>
+
+		<div class="Containers">
+			<a href="../french-forms/">
+			<img class="flag-center france" src="{% static 'FLAGPNG/france.png' %}" style="width:100%">
+			</a>
+		</div>
+
+		<div class="Containers">
+			<a href="../romanian-forms/">
+			<img class="flag-center romania" src="{% static 'FLAGPNG/romania.png' %}" style="width:100%">
+			</a>
+		</div>
+
+		<div class="Containers">
+			<a href="../polish-forms/">
+			<img class="flag-center poland" src="{% static 'FLAGPNG/poland.png' %}" style="width:100%">
+			</a>
+		</div>
+
+
+
+		<a class="forward" onclick="plusSlides(1)">&#10095;</a>
+		<a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+	</div>
+	<br>
+
+	<div style="text-align:center">
+  		<span class="dots" onclick="currentSlide(1)"></span>
+		<span class="dots" onclick="currentSlide(2)"></span>
+		<span class="dots" onclick="currentSlide(3)"></span>
+		<span class="dots" onclick="currentSlide(4)"></span>
+		<span class="dots" onclick="currentSlide(5)"></span>
+	</div> 
+	-->
+	</section>
+	<section class="body-container">
+		<div class="column language-drop-shadow">
+			<a href="../english-instructions/">	
+			<img src="{% static 'FLAGPNG/english2.png' %}" style="height:20em;" style="width:auto;">
+			</a>
+		</div>
+		<div class="column language-drop-shadow">			
+			<a href="../french-instructions/">	
+			<img src="{% static 'FLAGPNG/france2.png' %}" style="height:20em;" style="width:auto;">
+			</a>
+		</div>
+		<div class="column language-drop-shadow">
+			<a href="../spanish-instructions/">		
+			<img src="{% static 'FLAGPNG/spanish2.png' %}" style="height:20em;" style="width:auto;">
+			</a>
+		</div>
+		</div>
+		<div class="column language-drop-shadow">
+			<a href="../polish-instructions/">	
+			<img src="{% static 'FLAGPNG/polish2.png' %}" style="height:20em;" style="width:auto;">
+			</a>
+		</div>
+		<div class="column language-drop-shadow">
+			<a href="../romanian-instructions/">	
+			<img src="{% static 'FLAGPNG/romania2.png' %}" style="height:20em;" style="width:auto;">
+			</a>
+		</div>
+		<!--<a href="?run=true">Click Me!</a>-->
+
+	</section>
+</body>
+	<footer class="main-footer footer">
+		<div class="container main-footer-container">
+			<img class="logo-positioning-white" src="{% static 'FLAGPNG/script-logo-white.png' %}">
+			<h2 class="footer-font"> | 2021</h2>
+			<ul class="nav footer-nav">
+     			<li>
+        			<a href="https://www.twitter.com" target="_blank">
+          				<img src="{% static 'FLAGPNG/twitter.png' %}" width="32" height="32">
+        			</a>
+      			</li>
+      			<li>
+       			 	<a href="https://www.instagram.com" target="_blank">
+          				<img src="{% static 'FLAGPNG/instagram.png' %}" width="32" height="32">
+        			</a>
+      			</li>
+      			<li>
+        			<a href="https://www.Reddit.com" target="_blank">
+         				<img src="{% static 'FLAGPNG/reddit.png' %}" width="32" height="32">
+        			</a>
+      			</li>
+    		</ul>
+		</div>
+	</footer>
+</html>
+
+{% endblock %}

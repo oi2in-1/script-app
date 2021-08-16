@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+	<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+	<section class="form-choice-content-section form-choice-container">	
+		<h1><div class="choose-form-header">Personal Public Service Number (PPSN) formă</div></h1>
+		<object class="embed-margin2" data="{% static 'forms/romanian-forms/pps-official.pdf' %}" type="application/pdf" style="min-height:70vh;width:40%"></object>
+		<object class="embed-margin" data="{% static 'forms/romanian-forms/romanian-pps.pdf' %}" type="application/pdf" style="min-height:70vh;width:40%"></object>
+{% endblock %}

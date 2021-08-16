@@ -1,0 +1,42 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+	<title>Script</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/help.css' %}">
+	<script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+	<script type="text/javascript" src="{% static 'javascript/main.js' %}"></script>
+	<script type="text/javascript" src="{% static 'javascript/text.js' %}"></script>
+</head>
+<body class="centre main-backdrop">
+	<header class="main-header">
+		{% include 'navbar.html' %}
+	</header>
+	{% block content %}
+
+	{% endblock %}
+</body>
+	<footer class="main-footer footer">
+		<div class="container main-footer-container">
+			<img class="logo-positioning-white" src="{% static 'FLAGPNG/script-logo-white.png' %}">
+			<h2 class="footer-font"> | 2021</h2>
+			<ul class="nav footer-nav">
+     			<li>
+        			<a href="https://www.twitter.com" target="_blank">
+          				<img src="{% static 'FLAGPNG/twitter.png' %}" width="32" height="32">
+        			</a>
+      			</li>
+      			<li>
+       			 	<a href="https://www.instagram.com" target="_blank">
+          				<img src="{% static 'FLAGPNG/instagram.png' %}" width="32" height="32">
+        			</a>
+      			</li>
+      			<li>
+        			<a href="https://www.Reddit.com" target="_blank">
+         				<img src="{% static 'FLAGPNG/reddit.png' %}" width="32" height="32">
+        			</a>
+      			</li>
+    		</ul>
+		</div>
+	</footer>
+</html>

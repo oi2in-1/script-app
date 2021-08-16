@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+	<script type="text/javascript" src="{% static 'javascript/dropdown.js' %}"></script>
+		<h1><div class="choose-form-header">Veuillez choisir un type de formulaire</div></h1>
+		<div class="body-container2">	
+
+
+
+			<div class="column2 form-choice-center forms">
+				<a href="../identity-forms-french/" >
+				<img src="{% static 'FLAGPNG/identity-form-french.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>	
+
+			<div class="column2 form-choice-center forms">
+				<a href="../employment-forms-french/">
+				<img src="{% static 'FLAGPNG/employment-form-french.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>
+
+			<div class="column2 form-choice-center forms">	
+				<a href="../welfare-forms-french/">
+				<img src="{% static 'FLAGPNG/welfare-form-french.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>			
+		</div>
+
+
+
+
+		<div class="body-container2">	
+		
+			<div class="column3 form-choice-center forms">
+				<a href="../health-forms-french/">
+				<img src="{% static 'FLAGPNG/health-form-french.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>
+			<div class="column3 form-choice-center forms">
+				<a href="../justice-forms-french/">
+				<img src="{% static 'FLAGPNG/justice-form-french.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>
+			<div class="column3 form-choice-center forms">
+				<a href="../housing-forms-french/">
+				<img src="{% static 'FLAGPNG/housing-form-french.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>
+		</div>	
+{% endblock %}
+
+

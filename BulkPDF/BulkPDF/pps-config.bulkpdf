@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BulkPDF>
+  <Version>1.2.5.0</Version>
+  <Options>
+    <DataSource>
+      <Typ>Spreadsheet</Typ>
+      <Parameter>C:\Users\newsy\tryjango\project1\BulkPDF\BulkPDF\english-values.xlsx</Parameter>
+    </DataSource>
+    <PDF>
+      <Filepath>C:\Users\newsy\tryjango\project1\static\forms\english-forms\english-pps.pdf</Filepath>
+    </PDF>
+    <Spreadsheet>
+      <Table>Sheet1</Table>
+    </Spreadsheet>
+    <Filename>
+      <Prefix>output-inserted-to-english</Prefix>
+      <ValueFromDataSource>False</ValueFromDataSource>
+      <DataSource>Sheet1[.]gender</DataSource>
+      <Suffix />
+      <RowNumber>False</RowNumber>
+    </Filename>
+    <Finalize>False</Finalize>
+    <Unicode>False</Unicode>
+    <CustomFont>False</CustomFont>
+    <CustomFontPath />
+    <OutputDir>C:\Users\newsy\tryjango\project1\static\forms\english-forms</OutputDir>
+  </Options>
+  <PDFFieldValues>
+    <PDFFieldValue>
+      <Name>untitled1</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled2</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled3</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled4</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled5</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled15</Name>
+      <NewValue>Sheet1[.]gender</NewValue>
+      <UseValueFromDataSource>True</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled16</Name>
+      <NewValue>Sheet1[.]name</NewValue>
+      <UseValueFromDataSource>True</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled17</Name>
+      <NewValue>Sheet1[.]surname</NewValue>
+      <UseValueFromDataSource>True</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled18</Name>
+      <NewValue>Sheet1[.]birthname</NewValue>
+      <UseValueFromDataSource>True</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled19</Name>
+      <NewValue>Sheet1[.]birth surname	</NewValue>
+      <UseValueFromDataSource>True</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled20</Name>
+      <NewValue>Sheet1[.]mother maiden</NewValue>
+      <UseValueFromDataSource>True</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled21</Name>
+      <NewValue>Sheet1[.]date of birth	</NewValue>
+      <UseValueFromDataSource>True</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled22</Name>
+      <NewValue>Sheet1[.]address line 1	</NewValue>
+      <UseValueFromDataSource>True</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled23</Name>
+      <NewValue>Sheet1[.]address line 2	</NewValue>
+      <UseValueFromDataSource>True</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled24</Name>
+      <NewValue>Sheet1[.]address line 3	</NewValue>
+      <UseValueFromDataSource>True</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled25</Name>
+      <NewValue>Sheet1[.]county	</NewValue>
+      <UseValueFromDataSource>True</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled26</Name>
+      <NewValue>Sheet1[.]post code	</NewValue>
+      <UseValueFromDataSource>True</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled27</Name>
+      <NewValue>Sheet1[.]telephone number</NewValue>
+      <UseValueFromDataSource>True</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled28</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled29</Name>
+      <NewValue>Sheet1[.]email address	</NewValue>
+      <UseValueFromDataSource>True</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled30</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled31</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled32</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled6</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled7</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled8</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled9</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled10</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled11</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled12</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled13</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+    <PDFFieldValue>
+      <Name>untitled14</Name>
+      <NewValue />
+      <UseValueFromDataSource>False</UseValueFromDataSource>
+      <MakeReadOnly>False</MakeReadOnly>
+    </PDFFieldValue>
+  </PDFFieldValues>
+</BulkPDF>

@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<h1><div class="choose-form-header">Comment utiliser Script</div></h1>
+
+<div class="vl"></div>
+
+<div class="instruction-container">
+	<img class="numbers" src="{% static 'FLAGPNG/one.png' %}"> 
+	<div>
+		<p class="steps-header">Select Form Type</p>
+		<p class="steps-body">Choose the type of form you require from the list of form categories</p>	
+		<p class="steps-body">Eg: Identity Forms -> PPSN Form </p>
+	</div>
+	<!--<p class="text-pos" align="left">Choose the Script you require from the list of forms. </p>-->
+</div>
+
+<div class="instruction-container">
+	<img class="numbers" src="{% static 'FLAGPNG/two.png' %}">
+	<div>
+		<p class="steps-header2">Complete Your Form</p>
+		<p class="steps-body2">Fill out the form you selected and confirm that the details you entered are correct</p>
+	</div>
+	<!--<p class="text-pos" align="left">First Choose the form you require from the list of forms.</p>-->
+</div>
+<div class="instruction-container">
+	<img class="numbers2" src="{% static 'FLAGPNG/three.png' %}">
+	<div>
+		<p class="steps-header">Finish Up</p>
+		<p class="steps-body">Press the "Finish" button to complete the translation process</p>
+		<p class="steps-body">You will then be able to print and sign your completed form</p>
+	</div>
+	<!--<p class="text-pos" align="left">First Choose the form you require from the list of forms.</p>-->	
+</div>
+<div class="instruction-container">
+	<a href="../french-forms/">	
+		<img class="started-button" src="{% static 'FLAGPNG/getstarted.png' %}">
+	</a>
+</div>
+{% endblock %}
+
+
+
+

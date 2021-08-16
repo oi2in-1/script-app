@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+	<script type="text/javascript" src="{% static 'javascript/dropdown.js' %}"></script>
+		<h1><div class="choose-form-header">Proszę wybrać typ formularza</div></h1>
+		<div class="body-container2">	
+
+
+
+			<div class="column2 form-choice-center forms">
+				<a href="../identity-forms-polish/" >
+				<img src="{% static 'FLAGPNG/identity-form-polish.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>	
+
+			<div class="column2 form-choice-center forms">
+				<a href="../employment-forms-polish/">
+				<img src="{% static 'FLAGPNG/employment-form-polish.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>
+
+			<div class="column2 form-choice-center forms">	
+				<a href="../welfare-forms-polish/">
+				<img src="{% static 'FLAGPNG/welfare-form-polish.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>			
+		</div>
+
+
+
+
+		<div class="body-container2">	
+		
+			<div class="column3 form-choice-center forms">
+				<a href="../health-forms-polish/">
+				<img src="{% static 'FLAGPNG/health-form-polish.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>
+			<div class="column3 form-choice-center forms">
+				<a href="../justice-forms-polish/">
+				<img src="{% static 'FLAGPNG/justice-form-polish.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>
+			<div class="column3 form-choice-center forms">
+				<a href="../housing-forms-polish/">
+				<img src="{% static 'FLAGPNG/housing-form-polish.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>
+		</div>	
+{% endblock %}
+
+

@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+	<script type="text/javascript" src="{% static 'javascript/dropdown.js' %}"></script>
+		<h1><div class="choose-form-header">Vă rugăm să alegeti un tip de formular</div></h1>
+		<div class="body-container2">	
+
+
+
+			<div class="column2 form-choice-center forms">
+				<a href="../identity-forms-romanian/" >
+				<img src="{% static 'FLAGPNG/identity-form-romanian.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>	
+
+			<div class="column2 form-choice-center forms">
+				<a href="../employment-forms-romanian/">
+				<img src="{% static 'FLAGPNG/employment-form-romanian.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>
+
+			<div class="column2 form-choice-center forms">	
+				<a href="../welfare-forms-romanian/">
+				<img src="{% static 'FLAGPNG/welfare-form-romanian.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>			
+		</div>
+
+
+
+
+		<div class="body-container2">	
+		
+			<div class="column3 form-choice-center forms">
+				<a href="../health-forms-romanian/">
+				<img src="{% static 'FLAGPNG/health-form-romanian.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>
+			<div class="column3 form-choice-center forms">
+				<a href="../justice-forms-romanian/">
+				<img src="{% static 'FLAGPNG/justice-form-romanian.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>
+			<div class="column3 form-choice-center forms">
+				<a href="../housing-forms-romanian/">
+				<img src="{% static 'FLAGPNG/housing-form-romanian.png' %}" style="height:12.5em;" style="width:auto;">
+				</a>
+			</div>
+		</div>	
+{% endblock %}
+
+
+
